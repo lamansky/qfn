@@ -1,6 +1,6 @@
 {
   "name": "qfn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qualified Function. Wraps a function so it only gets executed if a condition is true.",
   "keywords": [
     "conditional",
