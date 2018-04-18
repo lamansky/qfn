@@ -21,6 +21,11 @@ describe('qfn()', function () {
     assert.strictEqual(qfn(add1, false)(s), s)
   })
 
+  it('should return the first argument if `test` is undefined', function () {
+    const s = Symbol('s')
+    assert.strictEqual(qfn(add1)(s), s)
+  })
+
   it('should execute `fn` if `test` function returns true', function () {
     const add1IfEven = qfn(add1, x => x % 2 === 0)
     assert.strictEqual(add1IfEven(4), 5)
