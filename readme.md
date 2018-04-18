@@ -1,6 +1,4 @@
-# qfn
-
-Qualified Function.
+# Qualified Function (qfn)
 
 Wraps a function so it only gets executed if a condition is true.
 
@@ -44,4 +42,4 @@ add1IfEven(4) // 5
 
 ## Related
 
-For more projects like this, check out the [xfn](https://github.com/lamansky/xfn) family of modules.
+For more projects like this, check out [@lamansky/fn](https://github.com/lamansky/fn).
